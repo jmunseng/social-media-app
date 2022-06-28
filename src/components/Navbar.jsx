@@ -49,7 +49,11 @@ const Navbar = () => {
         </Typography>
         <Pets sx={{ display: { xs: 'block', sm: 'none' } }} />
         <Search>
-          <InputBase placeholder="search..." sx={{ width: '100%' }} />
+          <InputBase
+            placeholder="search..."
+            sx={{ width: '100%' }}
+            color={'text.primary'}
+          />
         </Search>
         <Icons>
           <Badge badgeContent={4} color="primary">
